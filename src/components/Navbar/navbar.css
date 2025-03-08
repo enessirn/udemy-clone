@@ -1,0 +1,127 @@
+a,
+i {
+  color: black;
+  text-decoration: none;
+}
+nav {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 13px 24px;
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  width: 90px;
+  height: auto;
+  cursor: pointer;
+}
+/* Search */
+.search-input {
+  width: 180%;
+  position: relative;
+}
+.search-input .fa-magnifying-glass {
+  position: absolute;
+  z-index: 100;
+  top: 16px;
+  left: 10px;
+  cursor: not-allowed;
+  color: #9798a1;
+  font-size: 13px;
+}
+#header-search {
+  width: 100%;
+  padding: 13px;
+  padding-left: 36px !important;
+  border: 1px solid #585b73;
+  border-radius: 40px;
+  outline: none;
+  font-size: 13px;
+}
+#header-search::placeholder {
+  color: #585b73;
+}
+#header-search:hover {
+  background: rgba(128, 128, 128, 0.1);
+}
+#header-search:focus {
+  border-color: #6b28d1;
+}
+/* Search End */
+.menu-right-side {
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 4px;
+}
+/* Nav Buttons */
+.nav-btn {
+  width: auto !important;
+  display: flex;
+  background: none;
+  font-size: 13px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  margin-left: 4px;
+  padding: 10px 13px;
+  line-height: normal;
+  white-space: nowrap;
+}
+.menu-link {
+  min-width: 100px !important;
+}
+.nav-btn:hover {
+  background: rgba(107, 40, 209, 0.1);
+  color: #6b28d1;
+  transition: 0.2s all ease-in-out;
+}
+.nav-btn:hover > i {
+  color: #6b28d1;
+}
+/* Nav Buttons End */
+
+/* sign in and sign up buttons */
+#sign-in-btn {
+  border: 1px solid #6b28d1;
+  color: #6b28d1;
+  font-weight: bold;
+  font-size: 13px;
+}
+#sign-in-btn:hover {
+  background: rgba(107, 40, 209, 0.15);
+  transition: 0.2s all ease-in-out;
+}
+#sign-up-btn {
+  font-size: 13px;
+  border: none;
+  background: #6b28d1;
+  color: white;
+  font-weight: bold;
+  padding: 10px 16px;
+}
+
+#sign-up-btn:hover {
+  background: #9655f8;
+  transition: 0.2s all ease-in-out;
+}
+.cart-btn {
+  padding: 13px;
+  font-size: 16px;
+}
+.cart-btn:hover i {
+  color: #6b28d1;
+}
+.lang-btn {
+  border: 1px solid #6b28d1;
+  padding: 10px;
+  font-size: 16px;
+}
+.lang-btn:hover i {
+  color: black;
+}
