@@ -23,7 +23,10 @@ function Discovery({ menuHover, setMenuHover }) {
             <div
               key={index}
               data-id={index}
-              onMouseEnter={() => setMenuIndex(index)}
+              onMouseEnter={() => {
+                setSubMenuHover(false)
+                setMenuIndex(index)
+              } }
             >
               <a href={item.href}>
                 <li className={`discovery-list-item ${index === menuIndex ? "discovery-item-active" : ""}`}>
@@ -56,7 +59,7 @@ function Discovery({ menuHover, setMenuHover }) {
             ))}
         </ul>
       </div>
-      <div className={`discovery-list discovery-list-second ${subMenuHover ? "" : "d-none"}`} onMouseLeave={() => setSubMenuHover(false)}>
+      <div className={`discovery-list discovery-list-second sub-menu ${subMenuHover ? "" : "d-none"}`}>
         <ul className="discovery-list-content">
           <li className="discovery-list-item">
             <a href="#cer">Lorem Ipsum</a>
