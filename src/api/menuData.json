@@ -1,0 +1,762 @@
+{
+    "navbar": [
+      {
+        "title": "Sertifika Hazırlığı",
+        "href": "#sertifika-hazirligi",
+        "submenu": [
+              { "title": "Amazon Web Services (AWS) Sertifikasyonları", "href": "#aws-sertifikasyonlari" },
+              { "title": "Microsoft Sertifikasyonları", "href": "#microsoft-sertifikasyonlari" },
+              { "title": "Cisco Sertifikasyonları", "href": "#cisco-sertifikasyonlari" },
+              { "title": "CompTIA Sertifikasyonları", "href": "#comptia-sertifikasyonlari" },
+              { "title": "Project Management Institute (PMI) Sertifikasyonları", "href": "#pmi-sertifikasyonlari" },
+              { "title": "Google Cloud Sertifikasyonları", "href": "#google-cloud-sertifikasyonlari" },
+              { "title": "Six Sigma Sertifikasyonları", "href": "#six-sigma-sertifikasyonlari" },
+              { "title": "Oracle Sertifikasyonları", "href": "#oracle-sertifikasyonlari" },
+              { "title": "Bulut Sertifikasyonu", "href": "#bulut-sertifikasyonu" },
+              { "title": "Ağ İletişimi Sertifikasyonu", "href": "#ag-iletisimi-sertifikasyonu" },
+              { "title": "Siber Güvenlik Sertifikasyonu", "href": "#siber-guvenlik-sertifikasyonu" },
+              { "title": "Proje Yönetimi Sertifikasyonu", "href": "#proje-yonetimi-sertifikasyonu" },
+              { "title": "DevOps Sertifikasyonu", "href": "#devops-sertifikasyonu" },
+              { "title": "Kodlama Sertifikasyonu", "href": "#kodlama-sertifikasyonu" },
+              { "title": "Sistem Yönetimi Sertifikası", "href": "#sistem-yonetimi-sertifikasi" },
+              { "title": "Yapay Zeka Sertifikasyonu", "href": "#yapay-zeka-sertifikasyonu" }
+        ]
+      },
+      {
+        "title": "Yazılım Geliştirme",
+        "href": "#yazilim-gelistirme",
+        "submenu": [
+          {
+            "title": "Web Geliştirme",
+            "href": "#web-gelistirme",
+            "submenu": [
+              { "title": "React", "href": "#react" },
+              { "title": "Vue", "href": "#vue" },
+              { "title": "Angular", "href": "#angular" }
+            ]
+          },
+          {
+            "title": "Veri Bilimi",
+            "href": "#veri-bilimi",
+            "submenu": [
+              { "title": "Node.js", "href": "#nodejs" },
+              { "title": "Django", "href": "#django" },
+              { "title": "ASP.NET", "href": "#aspnet" }
+            ]
+          },
+          {
+            "title": "Mobil Yazılım Geliştirme",
+            "href": "#mobil-yazilim-gelistirme",
+            "submenu": []
+          },
+          {
+            "title": "Programlama Dilleri",
+            "href": "#programlama-dilleri",
+            "submenu": []
+          },
+          {
+            "title": "Oyun Geliştirme",
+            "href": "#oyun-gelistirme",
+            "submenu": []
+          },
+          {
+            "title": "Veri Tabanı Tasarlama ve Geliştirme",
+            "href": "#veri-tabani-tasarlama-ve-gelistirme",
+            "submenu": []
+          },
+          {
+            "title": "Yazılım Testi",
+            "href": "#yazilim-testi",
+            "submenu": []
+          },
+          {
+            "title": "Yazılım Mühendisliği",
+            "href": "#yazilim-muhendisligi",
+            "submenu": []
+          },
+          {
+            "title": "Yazılım Geliştirme Araçları",
+            "href": "#yazilim-gelistirme-araclari",
+            "submenu": []
+          },
+          {
+            "title": "Kodsuz Yazılım Geliştirme",
+            "href": "#kodsuz-yazilim-gelistirme",
+            "submenu": []
+          }
+        ]
+      }
+      ,
+      {
+        "title": "İşletme",
+        "href": "#isletme",
+        "submenu": [
+          {
+            "title": "Girişimcilik",
+            "href": "#girisimcilik",
+            "submenu": []
+          },
+          {
+            "title": "İletişim",
+            "href": "#iletisim",
+            "submenu": []
+          },
+          {
+            "title": "Yönetim",
+            "href": "#yonetim",
+            "submenu": []
+          },
+          {
+            "title": "Satış",
+            "href": "#satis",
+            "submenu": []
+          },
+          {
+            "title": "İş Stratejisi",
+            "href": "#is-stratejisi",
+            "submenu": []
+          },
+          {
+            "title": "Operasyonlar",
+            "href": "#operasyonlar",
+            "submenu": []
+          },
+          {
+            "title": "Proje Yönetimi",
+            "href": "#proje-yonetimi",
+            "submenu": []
+          },
+          {
+            "title": "İş Hukuku",
+            "href": "#is-hukuku",
+            "submenu": []
+          },
+          {
+            "title": "İş Analitiği ve Zekası",
+            "href": "#is-analitigi-ve-zekasi",
+            "submenu": []
+          },
+          {
+            "title": "İnsan Kaynakları",
+            "href": "#insan-kaynaklari",
+            "submenu": []
+          },
+          {
+            "title": "Sanayi",
+            "href": "#sanayi",
+            "submenu": []
+          },
+          {
+            "title": "E-Ticaret",
+            "href": "#e-ticaret",
+            "submenu": []
+          },
+          {
+            "title": "Medya",
+            "href": "#medya",
+            "submenu": []
+          },
+          {
+            "title": "Gayrimenkul",
+            "href": "#gayrimenkul",
+            "submenu": []
+          },
+          {
+            "title": "Diğer İşletme",
+            "href": "#diger-isletme",
+            "submenu": []
+          }
+        ]
+      },      
+      {
+        "title": "Finans ve Muhasebe",
+        "href": "#finans-muhasebe",
+        "submenu": [
+          {
+            "title": "Muhasebe ve Defter Tutma",
+            "href": "#muhasebe-ve-defter-tutma",
+            "submenu": []
+          },
+          {
+            "title": "Uyumluluk",
+            "href": "#uyumluluk",
+            "submenu": []
+          },
+          {
+            "title": "Sanal Para Birimi ve Blockchain",
+            "href": "#sanal-para-birimi-ve-blockchain",
+            "submenu": []
+          },
+          {
+            "title": "Ekonomi",
+            "href": "#ekonomi",
+            "submenu": []
+          },
+          {
+            "title": "Finans",
+            "href": "#finans",
+            "submenu": []
+          },
+          {
+            "title": "Finans Alanında Sertifika ve Sınav Hazırlığı",
+            "href": "#finans-alaninda-sertifika-ve-sinav-hazirligi",
+            "submenu": []
+          },
+          {
+            "title": "Finansal Modelleme ve Analiz",
+            "href": "#finansal-modelleme-ve-analiz",
+            "submenu": []
+          },
+          {
+            "title": "Yatırım ve Ticaret",
+            "href": "#yatirim-ve-ticaret",
+            "submenu": []
+          },
+          {
+            "title": "Nakit Yönetimi Araçları",
+            "href": "#nakit-yonetimi-araclari",
+            "submenu": []
+          },
+          {
+            "title": "Vergiler",
+            "href": "#vergiler",
+            "submenu": []
+          },
+          {
+            "title": "Diğer Finans ve Muhasebe",
+            "href": "#diger-finans-ve-muhasebe",
+            "submenu": []
+          }
+        ]
+      }
+      ,
+      {
+        "title": "BT ve Yazılım",
+        "href": "#bt-yazilim",
+        "submenu": [
+          {
+            "title": "BT Sertifikaları",
+            "href": "#bt-sertifikalari",
+            "submenu": []
+          },
+          {
+            "title": "Ağ ve Güvenlik",
+            "href": "#ag-ve-guvenlik",
+            "submenu": []
+          },
+          {
+            "title": "Donanım",
+            "href": "#donanim",
+            "submenu": []
+          },
+          {
+            "title": "İşletim Sistemleri ve Sunucular",
+            "href": "#isletim-sistemleri-ve-sunucular",
+            "submenu": []
+          },
+          {
+            "title": "Diğer BT ve Yazılım",
+            "href": "#diger-bt-ve-yazilim",
+            "submenu": []
+          }
+        ]
+      }
+      ,
+      {
+        "title": "Ofiste Verimlilik",
+        "href": "#ofiste-verimlilik",
+        "submenu": [
+          {
+            "title": "Microsoft",
+            "href": "#microsoft",
+            "submenu": []
+          },
+          {
+            "title": "Apple",
+            "href": "#apple",
+            "submenu": []
+          },
+          {
+            "title": "Google",
+            "href": "#google",
+            "submenu": []
+          },
+          {
+            "title": "SAP",
+            "href": "#sap",
+            "submenu": []
+          },
+          {
+            "title": "Oracle",
+            "href": "#oracle",
+            "submenu": []
+          },
+          {
+            "title": "Diğer Ofiste Verimlilik",
+            "href": "#diger-ofiste-verimlilik",
+            "submenu": []
+          }
+        ]
+      },      
+      {
+        "title": "Kişisel Gelişim",
+        "href": "#kisisel-gelisim",
+        "submenu": [
+          {
+            "title": "Kişisel Gelişim",
+            "href": "#kisisel-gelisim",
+            "submenu": []
+          },
+          {
+            "title": "Kişisel Verimlilik",
+            "href": "#kisisel-verimlilik",
+            "submenu": []
+          },
+          {
+            "title": "Liderlik",
+            "href": "#liderlik",
+            "submenu": []
+          },
+          {
+            "title": "Kariyer Geliştirme",
+            "href": "#kariyer-gelistirme",
+            "submenu": []
+          },
+          {
+            "title": "Ebeveynlik ve İlişkiler",
+            "href": "#ebeveynlik-ve-iliskiler",
+            "submenu": []
+          },
+          {
+            "title": "Mutluluk",
+            "href": "#mutluluk",
+            "submenu": []
+          },
+          {
+            "title": "Ezoterik Uygulamalar",
+            "href": "#ezoterik-uygulamalar",
+            "submenu": []
+          },
+          {
+            "title": "Din ve Maneviyat",
+            "href": "#din-ve-maneviyat",
+            "submenu": []
+          },
+          {
+            "title": "Kişisel Marka Oluşturma",
+            "href": "#kisisel-marka-olusturma",
+            "submenu": []
+          },
+          {
+            "title": "Yaratıcılık ve İlham",
+            "href": "#yaraticilik-ve-ilham",
+            "submenu": []
+          },
+          {
+            "title": "Diğer Öz Güven ve Öz Saygı",
+            "href": "#diger-oz-guven-ve-oz-saygi",
+            "submenu": []
+          },
+          {
+            "title": "Stres Yönetimi",
+            "href": "#stres-yonetimi",
+            "submenu": []
+          },
+          {
+            "title": "Hafıza ve Çalışma Becerileri",
+            "href": "#hafiza-ve-calisma-becerileri",
+            "submenu": []
+          },
+          {
+            "title": "Motivasyon",
+            "href": "#motivasyon",
+            "submenu": []
+          },
+          {
+            "title": "Diğer Kişisel Gelişim",
+            "href": "#diger-kisisel-gelisim",
+            "submenu": []
+          }
+        ]
+      },      
+      {
+        "title": "Tasarım",
+        "href": "#tasarim",
+        "submenu": [
+          {
+            "title": "Web Tasarımı",
+            "href": "#web-tasarimi",
+            "submenu": []
+          },
+          {
+            "title": "Diğer Grafik Tasarım ve İllüstrasyon",
+            "href": "#diger-grafik-tasarim-ve-illustriasyon",
+            "submenu": []
+          },
+          {
+            "title": "Tasarım Araçları",
+            "href": "#tasarim-araclari",
+            "submenu": []
+          },
+          {
+            "title": "Kullanıcı Deneyimi Tasarımı",
+            "href": "#kullanici-deneyimi-tasarimi",
+            "submenu": []
+          },
+          {
+            "title": "Oyun Tasarımı",
+            "href": "#oyun-tasarimi",
+            "submenu": []
+          },
+          {
+            "title": "3D ve Animasyon",
+            "href": "#3d-ve-animasyon",
+            "submenu": []
+          },
+          {
+            "title": "Moda Tasarımı",
+            "href": "#moda-tasarimi",
+            "submenu": []
+          },
+          {
+            "title": "Mimari Tasarım",
+            "href": "#mimari-tasarim",
+            "submenu": []
+          },
+          {
+            "title": "İç Tasarım",
+            "href": "#ic-tasarim",
+            "submenu": []
+          },
+          {
+            "title": "Diğer Tasarım",
+            "href": "#diger-tasarim",
+            "submenu": []
+          }
+        ]
+      },      
+      {
+        "title": "Pazarlama",
+        "href": "#pazarlama",
+        "submenu": [
+          {
+            "title": "Dijital Pazarlama",
+            "href": "#dijital-pazarlama",
+            "submenu": []
+          },
+          {
+            "title": "Arama Motoru Optimizasyonu",
+            "href": "#arama-motoru-optimizasyonu",
+            "submenu": []
+          },
+          {
+            "title": "Sosyal Medya Pazarlama",
+            "href": "#sosyal-medya-pazarlama",
+            "submenu": []
+          },
+          {
+            "title": "Markalaştırma",
+            "href": "#markalastirma",
+            "submenu": []
+          },
+          {
+            "title": "Pazarlamanın Temelleri",
+            "href": "#pazarlamanin-temelleri",
+            "submenu": []
+          },
+          {
+            "title": "Pazarlama Analizi ve Otomasyon",
+            "href": "#pazarlama-analizi-ve-otomasyon",
+            "submenu": []
+          },
+          {
+            "title": "Halkla İlişkiler",
+            "href": "#halkla-iliskiler",
+            "submenu": []
+          },
+          {
+            "title": "Ücretli Reklam",
+            "href": "#ucretli-reklam",
+            "submenu": []
+          },
+          {
+            "title": "Video ve Mobil Pazarlama",
+            "href": "#video-ve-mobil-pazarlama",
+            "submenu": []
+          },
+          {
+            "title": "İçerik Pazarlama",
+            "href": "#icerik-pazarlama",
+            "submenu": []
+          },
+          {
+            "title": "Growth Hacking",
+            "href": "#growth-hacking",
+            "submenu": []
+          },
+          {
+            "title": "İş Ortaklığı Pazarlama",
+            "href": "#is-ortakligi-pazarlama",
+            "submenu": []
+          },
+          {
+            "title": "Ürün Pazarlama",
+            "href": "#urun-pazarlama",
+            "submenu": []
+          },
+          {
+            "title": "Diğer Pazarlama",
+            "href": "#diger-pazarlama",
+            "submenu": []
+          }
+        ]
+      },      
+      {
+        "title": "Yaşam Tarzı",
+        "href": "#yasam-tarzi",
+        "submenu": [
+          {
+            "title": "Sanat ve El Sanatları",
+            "href": "#sanat-ve-el-sanatlari",
+            "submenu": []
+          },
+          {
+            "title": "Güzellik ve Makyaj",
+            "href": "#guzellik-ve-makyaj",
+            "submenu": []
+          },
+          {
+            "title": "Ezoterik Uygulamalar",
+            "href": "#ezoterik-uygulamalar",
+            "submenu": []
+          },
+          {
+            "title": "Yiyecek ve İçecek",
+            "href": "#yiyecek-ve-icecek",
+            "submenu": []
+          },
+          {
+            "title": "Oyun",
+            "href": "#oyun",
+            "submenu": []
+          },
+          {
+            "title": "Ev Geliştirme ve Bahçe İşleri",
+            "href": "#ev-gelistirme-ve-bahce-isleri",
+            "submenu": []
+          },
+          {
+            "title": "Evcil Hayvan Bakımı ve Eğitimi",
+            "href": "#evcil-hayvan-bakimi-ve-egitimi",
+            "submenu": []
+          },
+          {
+            "title": "Seyahat",
+            "href": "#seyahat",
+            "submenu": []
+          },
+          {
+            "title": "Diğer Yaşam Tarzı",
+            "href": "#diger-yasam-tarzi",
+            "submenu": []
+          }
+        ]
+      },      
+      {
+        "title": "Fotoğraf ve Video",
+        "href": "#fotograf-video",
+        "submenu": [
+          {
+            "title": "Dijital Fotoğrafçılık",
+            "href": "#dijital-fotografcilik",
+            "submenu": []
+          },
+          {
+            "title": "Fotoğrafçılık",
+            "href": "#fotografcilik",
+            "submenu": []
+          },
+          {
+            "title": "Portre Fotoğrafçılığı",
+            "href": "#portre-fotografciligi",
+            "submenu": []
+          },
+          {
+            "title": "Fotoğrafçılık Araçları",
+            "href": "#fotografcilik-araclari",
+            "submenu": []
+          },
+          {
+            "title": "Ticari Fotoğrafçılık",
+            "href": "#ticari-fotografcilik",
+            "submenu": []
+          },
+          {
+            "title": "Video Tasarımı",
+            "href": "#video-tasarimi",
+            "submenu": []
+          },
+          {
+            "title": "Diğer Fotoğrafçılık ve Video",
+            "href": "#diger-fotografcilik-ve-video",
+            "submenu": []
+          }
+        ]
+      },      
+      {
+        "title": "Sağlık ve Fitness",
+        "href": "#saglik-fitness",
+        "submenu": [
+          {
+            "title": "Fitness",
+            "href": "#fitness",
+            "submenu": []
+          },
+          {
+            "title": "Genel Sağlık",
+            "href": "#genel-saglik",
+            "submenu": []
+          },
+          {
+            "title": "Spor",
+            "href": "#spor",
+            "submenu": []
+          },
+          {
+            "title": "Beslenme ve Diyetetik",
+            "href": "#beslenme-ve-diyetetik",
+            "submenu": []
+          },
+          {
+            "title": "Yoga",
+            "href": "#yoga",
+            "submenu": []
+          },
+          {
+            "title": "Ruh Sağlığı",
+            "href": "#ruh-sagligi",
+            "submenu": []
+          },
+          {
+            "title": "Dövüş Sanatları ve Kendini Savunma",
+            "href": "#dovus-sanatlari-ve-kendini-savunma",
+            "submenu": []
+          },
+          {
+            "title": "Güvenlik ve İlk Yardım",
+            "href": "#guvenlik-ve-ilk-yardim",
+            "submenu": []
+          },
+          {
+            "title": "Dans",
+            "href": "#dans",
+            "submenu": []
+          },
+          {
+            "title": "Meditasyon",
+            "href": "#meditasyon",
+            "submenu": []
+          },
+          {
+            "title": "Diğer Sağlık ve Fitness",
+            "href": "#diger-saglik-ve-fitness",
+            "submenu": []
+          }
+        ]
+      },      
+      {
+        "title": "Müzik",
+        "href": "#muzik",
+        "submenu": [
+          {
+            "title": "Enstrümanlar",
+            "href": "#enstrumanlar",
+            "submenu": []
+          },
+          {
+            "title": "Müzik Prodüksiyonu",
+            "href": "#muzik-produksiyonu",
+            "submenu": []
+          },
+          {
+            "title": "Müziğin Temelleri",
+            "href": "#muzigin-temelleri",
+            "submenu": []
+          },
+          {
+            "title": "Vokal Müzik Teknikleri",
+            "href": "#vokal-muzik-teknikleri",
+            "submenu": []
+          },
+          {
+            "title": "Müzik Yazılımı",
+            "href": "#muzik-yazilimi",
+            "submenu": []
+          },
+          {
+            "title": "Diğer Müzik",
+            "href": "#diger-muzik",
+            "submenu": []
+          }
+        ]
+      },      
+      {
+        "title": "Öğretim ve Akademi",
+        "href": "#ogretim-akademi",
+        "submenu": [
+          {
+            "title": "Mühendislik",
+            "href": "#muhendislik",
+            "submenu": []
+          },
+          {
+            "title": "Beşeri Bilimler",
+            "href": "#beseri-bilimler",
+            "submenu": []
+          },
+          {
+            "title": "Matematik",
+            "href": "#matematik",
+            "submenu": []
+          },
+          {
+            "title": "Bilim",
+            "href": "#bilim",
+            "submenu": []
+          },
+          {
+            "title": "Online Eğitim",
+            "href": "#online-egitim",
+            "submenu": []
+          },
+          {
+            "title": "Sosyal Bilimler",
+            "href": "#sosyal-bilimler",
+            "submenu": []
+          },
+          {
+            "title": "Dil Öğrenimi",
+            "href": "#dil-ogrenimi",
+            "submenu": []
+          },
+          {
+            "title": "Öğretmen Eğitimi",
+            "href": "#ogretmen-egitimi",
+            "submenu": []
+          },
+          {
+            "title": "Sınava Hazırlık",
+            "href": "#sinava-hazirlik",
+            "submenu": []
+          },
+          {
+            "title": "Diğer Öğretim ve Akademi",
+            "href": "#diger-ogretim-akademi",
+            "submenu": []
+          }
+        ]
+      }
+      
+    ]
+  }
+  
