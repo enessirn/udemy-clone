@@ -15,9 +15,14 @@ nav {
 }
 
 .logo {
-  width: 90px;
-  height: auto;
   cursor: pointer;
+}
+@media (max-width: 770px) {
+  .logo {
+    width: 100%;
+    text-align: center;
+    margin-right: -50px;
+  }
 }
 /* Search */
 .search-input {
@@ -53,7 +58,7 @@ nav {
 }
 /* Search End */
 .menu-right-side {
-  width: 100%;
+  width: auto;
   display: flex;
   justify-items: center;
   align-items: center;

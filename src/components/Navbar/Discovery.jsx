@@ -13,6 +13,7 @@ function Discovery({ menuHover, setMenuHover }) {
   }, [menuIndex]);
   return (
     <div
+      style={{marginTop: "-8px"}}
       className={`discovery-all-list ${menuHover ? "" : "d-none"}`}
       onMouseLeave={() => setMenuHover(false)}
     >
