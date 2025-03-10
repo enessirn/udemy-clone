@@ -1,0 +1,155 @@
+.tab-list {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+
+  padding-left: 0px;
+  border-bottom: 1px solid lightgray;
+}
+.tab-list a {
+  padding: 12px;
+  color: gray;
+  font-weight: bold;
+}
+.tab-list a:hover {
+  color: black !important;
+}
+.tab-active {
+  color: black !important;
+  border-bottom: 2px solid black !important;
+}
+
+/* Lesson List */
+.scroll-container {
+    overflow-x: hidden;
+    position: relative;
+  }
+  
+  .scroll-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    scroll-behavior: smooth;
+  }
+  
+  .scroll-card {
+    flex: 0 0 25%; /* 4 kart görünür */
+    max-width: 25%;
+  }
+  
+  .arrow-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+  
+  .left-arrow {
+    left: 0;
+  }
+  
+  .right-arrow {
+    right: 0;
+  }
+  
+
+  @media (max-width: 992px) {
+    .scroll-card {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .scroll-card {
+      flex: 0 0 100%; 
+      max-width: 100%;
+    }
+  }
+
+
+  /* Lesson Categories */
+
+  .category-list {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    gap: 1rem;
+    scroll-snap-type: mandatory;
+
+  }
+  .btn-category {
+    display: block;
+    height: 4.3rem;
+    border: none;
+    padding: 1.2rem 1.4rem .4rem;
+    border-radius: 9.6rem;
+    text-align: left;
+    background: #e9eaf2;
+    white-space: nowrap;
+
+  }
+  .btn-category:hover {
+    background: #d4d6e6;
+  }
+  .btn-category h6 {
+    font-weight: bold;
+    font-size: .9rem;
+  }
+  .btn-category p {
+    font-size: 11px;
+    color: black;
+    margin-top: -4px;
+  }
+  .category-active{
+    background: #2f3040;
+    color: white !important;
+  }
+  .category-active p {
+    color: white !important;
+  }
+  .category-active:hover {
+    background: #616275;
+  }
+
+/* Arrow Buttons */
+.arrow-buttons {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+}
+.arrow-btn {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 100%;
+  background: white;
+  color: black !important;
+}
+.arrow-left-btn {
+  left: -4%;
+}
+.arrow-right-btn {
+  right: -4%;
+}
+@media (max-width: 992px) {
+  .arrow-left-btn {
+    left: -8%;
+  }
+  .arrow-right-btn {
+    right: -6%;
+  }
+}
+
+/* Sadece butona tıklandığında action ekleyeceğim için iconun tıklanma özelliğini devre dışı bırakıyorum */
+.fa-angle-left,
+.fa-angle-right {
+  pointer-events: none;
+}
