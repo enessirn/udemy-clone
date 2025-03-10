@@ -1,0 +1,47 @@
+.card {
+    cursor: pointer;
+}
+.card:hover img {
+    filter: brightness(.8);
+    transition: .2s all ease-in-out;
+}
+.card-title {
+    font-size: 15px;
+    font-weight: bold;
+}
+.card-text {
+    font-size: 12px;
+}
+.card-rate {
+    font-size: 14px;
+    font-weight: bold;
+    color: #c4720e;
+    margin-right: 4px;
+}
+.rate-stars i{
+    color: #c4720e !important;
+    font-size: 12px;
+
+}
+.card-rate-count {
+    font-size: 12px;
+    margin-left: 4px;
+}
+.card-price {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.card-tag {
+    background: #c2e9eb;
+    color: #0d5161;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+.card-tag:hover {
+    background: #c2e9eb;
+    color: #0d5161; 
+}

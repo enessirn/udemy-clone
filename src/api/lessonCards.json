@@ -1,0 +1,38 @@
+[
+    {
+        "cardImg": "https://img-c.udemycdn.com/course/240x135/5562088_6fef_8.jpg",
+        "cardTitle": "Sıfırdan Yapay Zeka Uzmanlığı: ChatGPT ve 20+ Araç (2025)",
+        "cardOwner": "Dolunay Özeren",
+        "cardRate": "4,6",
+        "cardRateCount": "1.666",
+        "cardPrice": "₺249,00",
+        "cardTag": "En çok satan"
+    },
+    {
+        "cardImg": "https://img-c.udemycdn.com/course/240x135/5774220_dd72.jpg",
+        "cardTitle": "ChatGPT 2025: Prompt Mühendisliği, İçerik ve Görseller",
+        "cardOwner": "Atıl Samancıoğlu, Academy Club",
+        "cardRate": "4,8",
+        "cardRateCount": "1.123",
+        "cardPrice": "₺269,99",
+        "cardTag": "En çok satan"
+    },
+    {
+        "cardImg": "https://img-c.udemycdn.com/course/240x135/5278844_eb91_8.jpg",
+        "cardTitle": "ChatGPT & Yapay Zeka : Sıfırdan Zirveye Prompt Mühendisliği",
+        "cardOwner": "Hakan Oz",
+        "cardRate": "4,5",
+        "cardRateCount": "575",
+        "cardPrice": "₺499,99",
+        "cardTag": ""
+    },
+    {
+        "cardImg": "https://img-c.udemycdn.com/course/240x135/5408292_ab98.jpg",
+        "cardTitle": "Edu3Labs Destekleri ile ChatGPT Eğitimi",
+        "cardOwner": "Bugra & Şebnem Ayan, Edu3Labs",
+        "cardRate": "4,3",
+        "cardRateCount": "182",
+        "cardPrice": "₺249,99",
+        "cardTag": ""
+    }
+]
