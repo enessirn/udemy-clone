@@ -15,7 +15,7 @@ function LessonCategories() {
   };
 
   return (
-    <div className="container mt-5 position-relative">
+    <div className="container position-relative">
       <div className="arrow-buttons">
         <button className={`arrow-btn arrow-left-btn shadow-sm ${scrollValue !== 0 ? 'd-block' : 'd-none'}`} onClick={ScrollLeft}>
           <i className="fa-solid fa-angle-left"></i>
