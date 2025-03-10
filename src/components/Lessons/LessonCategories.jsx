@@ -1,20 +1,23 @@
-import React, { createRef } from "react";
+import React, { createRef,useState } from "react";
 
 function LessonCategories() {
   const categoryList = createRef();
-
+  const [scrollValue, setScrollValue] = useState(0)
   // Scroll
   const ScrollRight = () => {
     categoryList.current.scrollLeft += 200;
+    setScrollValue(scrollValue + 200)
+    console.log(categoryList.current.scrollLeft)
   };
   const ScrollLeft = () => {
     categoryList.current.scrollLeft -= 200;
+    setScrollValue(scrollValue - 200)
   };
 
   return (
     <div className="container mt-5 position-relative">
       <div className="arrow-buttons">
-        <button className="arrow-btn arrow-left-btn shadow-sm" onClick={ScrollLeft}>
+        <button className={`arrow-btn arrow-left-btn shadow-sm ${scrollValue !== 0 ? 'd-block' : 'd-none'}`} onClick={ScrollLeft}>
           <i className="fa-solid fa-angle-left"></i>
         </button>
         <button
