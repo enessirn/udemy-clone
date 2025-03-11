@@ -1,17 +1,27 @@
 import React, { useState } from "react";
 import "./navbar.css";
 import Discovery from "./Discovery";
+import ResponsiveNavbar from "./ResponsiveNavbar";
 function Navbar() {
   const [menuHover, setMenuHover] = useState(false);
   return (
     <nav className="container-fluid position-relative px-0 px-md-4 py-md-2">
-      <button className="d-block d-md-none nav-btn">
-      <i style={{fontSize: "16px", fontWeight: "bold"}} className="fa-solid fa-bars menu-icon"></i>
+      <button
+        className="d-block d-md-none nav-btn"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasScrolling"
+        aria-controls="offcanvasScrolling"
+        onClick={() => setMenuHover(true)}
+      >
+        <i
+          style={{ fontSize: "16px", fontWeight: "bold" }}
+          className="fa-solid fa-bars menu-icon"
+        ></i>
       </button>
-
+      {menuHover ? <ResponsiveNavbar setMenuHover={setMenuHover} /> : ""}
       <div className="logo">
         <img
-          style={{width: "90px"}}
+          style={{ width: "90px" }}
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Udemy_logo.svg/2560px-Udemy_logo.svg.png"
           alt="Udemy"
         />
@@ -65,11 +75,17 @@ function Navbar() {
       {/* Resposive Buttons */}
       <div className="d-flex d-md-none justify-content-center align-middle">
         <button className="nav-btn">
-          <i style={{fontSize: "14px", marginTop: "2px"}} className="fa-solid fa-magnifying-glass "></i>
+          <i
+            style={{ fontSize: "14px", marginTop: "2px" }}
+            className="fa-solid fa-magnifying-glass "
+          ></i>
         </button>
 
         <button className="nav-btn cart-btn">
-          <i style={{fontSize: "14px"}} className="fa-solid fa-cart-shopping"></i>
+          <i
+            style={{ fontSize: "14px" }}
+            className="fa-solid fa-cart-shopping"
+          ></i>
         </button>
       </div>
     </nav>

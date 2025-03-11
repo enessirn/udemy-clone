@@ -28,10 +28,13 @@ function Lessons() {
       </div>
       <div className="lessons-content">
         <LessonCategories />
-        <div>
-        <LessonCards />
-        </div>
+        <div className="container">
+          <LessonCards />
 
+          <button className="nav-btn btn-white mt-4">
+            Tüm Veri Bilimi kurslarını göster
+          </button>
+        </div>
       </div>
     </div>
   );

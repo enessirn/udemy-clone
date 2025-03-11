@@ -48,9 +48,6 @@ function LessonCards() {
         ))}
       </div>
 
-      <button className="nav-btn btn-white mt-4">
-        Tüm Veri Bilimi kurslarını göster
-      </button>
     </div>
   );
 }
