@@ -34,5 +34,41 @@
         "cardRateCount": "182",
         "cardPrice": "₺249,99",
         "cardTag": ""
+    },
+    {
+        "cardImg": "https://img-c.udemycdn.com/course/240x135/6109161_9573_6.jpg",
+        "cardTitle": "Yapay Zeka ve ChatGPT Uzmanlık Eğitim Seti | Sertifikalı",
+        "cardOwner": "Abdullah Yılmaz",
+        "cardRate": "4,6",
+        "cardRateCount": "287",
+        "cardPrice": "₺249,99",
+        "cardTag": "En çok satan"
+    },
+    {
+        "cardImg": "https://img-c.udemycdn.com/course/240x135/5328198_28d0.jpg",
+        "cardTitle": "ChatGPT Sihirli Kılavuz: Akıllı Sohbetin Sırlarını Öğrenin!",
+        "cardOwner": "Tuncay EROL",
+        "cardRate": "4,5",
+        "cardRateCount": "84",
+        "cardPrice": "₺349,99",
+        "cardTag": ""
+    },
+    {
+        "cardImg": "https://img-c.udemycdn.com/course/240x135/6136985_8734.jpg",
+        "cardTitle": "ChatGPT ve Yapay Zeka: kapsamlı yapay zeka eğitimi",
+        "cardOwner": "Yassine Rochd",
+        "cardRate": "4,7",
+        "cardRateCount": "58",
+        "cardPrice": "₺249,99",
+        "cardTag": ""
+    },
+    {
+        "cardImg": "https://img-c.udemycdn.com/course/240x135/5877808_99d1_4.jpg",
+        "cardTitle": "ChatGPT ve DALL-E ile Prompt Mühendisliği & Yapay Zeka",
+        "cardOwner": "Yazılım Teknolojileri",
+        "cardRate": "4,6",
+        "cardRateCount": "131",
+        "cardPrice": "₺249,99",
+        "cardTag": ""
     }
 ]
