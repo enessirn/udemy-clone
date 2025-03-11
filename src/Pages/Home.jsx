@@ -5,6 +5,7 @@ import Lessons from '../components/Lessons/Lessons'
 import Sponsor from '../components/Sponsor/Sponsor'
 import LessonCards from '../components/Lessons/LessonCards'
 import ProfessionalSkills from '../components/ProfessionalSkills/ProfessionalSkills'
+import PlanCards from '../components/PlanCards/PlanCards'
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function Home() {
       </div>
 
       <ProfessionalSkills />
+      <PlanCards />
     </>
   )
 }

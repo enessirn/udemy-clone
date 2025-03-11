@@ -47,20 +47,20 @@ function Card({
   );
   return (
     <Popover placement="right" content={content} title="">
-      <div className="card  " style={{ width: "20rem" }}>
+      <div className="card" style={{ width: "20rem" }}>
         <img src={cardImg} className="card-img-top" alt={cardTitle} />
         <div className="card-body">
           <h5 className="card-title">{cardTitle}</h5>
           <p className="card-text mb-1 text-muted">{cardOwner}</p>
           <div className="d-flex align-items-center mb-2">
             <span className="card-rate">{cardRate}</span>
-
-            <div class="rate-stars">
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star-half-stroke"></i>
+=
+            <div className="rate-stars">
+              <i className="fa-solid fa-star"></i>
+              <i className="fa-solid fa-star"></i>
+              <i className="fa-solid fa-star"></i>
+              <i className="fa-solid fa-star"></i>
+              <i className="fa-solid fa-star-half-stroke"></i>
             </div>
             <span className="card-rate-count text-muted">
               ({cardRateCount})
