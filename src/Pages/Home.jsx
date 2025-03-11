@@ -8,6 +8,7 @@ import ProfessionalSkills from "../components/ProfessionalSkills/ProfessionalSki
 import PlanCards from "../components/PlanCards/PlanCards";
 import SkillsCarousel from "../components/ProfessionalSkills/SkillsCarousel";
 import Achievements from "../components/Achievements/Achievements";
+import TrendReport from "../components/TrendReport/TrendReport";
 
 function Home() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -50,6 +51,7 @@ function Home() {
       <PlanCards screenWidth={screenWidth} />
 
       <Achievements />
+      <TrendReport isResponsive={isResponsive} screenWidth={screenWidth} />
     </>
   );
 }

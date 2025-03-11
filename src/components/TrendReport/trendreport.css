@@ -1,0 +1,29 @@
+.get-report {
+    display: flex;
+    gap: 1rem;
+    justify-content: start;
+    align-items: center;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    border: 1px solid #6b28d1;
+    color: #6b28d1;
+    background: white;
+    font-weight: bold;
+    padding: 10px 16px;
+    border-radius: 6px;
+    margin: 12px 0;
+    width: 200px;
+}
+.get-report i{
+    font-weight: bold;
+    color: #6b28d1;
+}
+.get-report:hover {
+    background: #e9dbfc;
+    transition: 0.2s all ease-in-out;
+  }
+  .btn-fixed {
+    margin-top: -90px;
+    margin-bottom: 100px;
+  }
