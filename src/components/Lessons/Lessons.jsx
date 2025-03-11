@@ -28,7 +28,7 @@ function Lessons() {
       </div>
       <div className="lessons-content">
         <LessonCategories />
-        <div className="">
+        <div>
         <LessonCards />
         </div>
 
@@ -36,5 +36,4 @@ function Lessons() {
     </div>
   );
 }
-
 export default Lessons;
