@@ -4,7 +4,6 @@ function PlanCards({screenWidth}) {
 const [isResponsive,setIsResponsive] = useState(false)
 
 useEffect(() => {
-  console.log("Plan Card",screenWidth)
   if (screenWidth < 1100) {
     setIsResponsive(true)
   }
@@ -41,7 +40,7 @@ useEffect(() => {
             </small>
             <span>
               <span>
-                <i class="fa-solid fa-user"></i>
+                <i className="fa-solid fa-user"></i>
               </span>
               <small className="text-muted">Bireysel</small>
             </span>
@@ -95,7 +94,7 @@ useEffect(() => {
             </small>
             <span>
               <span>
-                <i class="fa-solid fa-user"></i>
+                <i className="fa-solid fa-user"></i>
               </span>
               <small className="text-muted">2 - 20 kişi</small>
             </span>
@@ -150,7 +149,7 @@ useEffect(() => {
             </small>
             <span>
               <span>
-                <i class="fa-solid fa-user"></i>
+                <i className="fa-solid fa-user"></i>
               </span>
               <small className="text-muted">20 kişiden fazla</small>
             </span>

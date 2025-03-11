@@ -7,6 +7,7 @@ import LessonCards from "../components/Lessons/LessonCards";
 import ProfessionalSkills from "../components/ProfessionalSkills/ProfessionalSkills";
 import PlanCards from "../components/PlanCards/PlanCards";
 import SkillsCarousel from "../components/ProfessionalSkills/SkillsCarousel";
+import Achievements from "../components/Achievements/Achievements";
 
 function Home() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -47,6 +48,8 @@ function Home() {
       </div>
       {isResponsive ? <SkillsCarousel /> : <ProfessionalSkills />}
       <PlanCards screenWidth={screenWidth} />
+
+      <Achievements />
     </>
   );
 }
