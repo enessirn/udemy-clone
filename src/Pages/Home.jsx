@@ -4,6 +4,7 @@ import Carousel from '../components/Carousel/Carousel'
 import Lessons from '../components/Lessons/Lessons'
 import Sponsor from '../components/Sponsor/Sponsor'
 import LessonCards from '../components/Lessons/LessonCards'
+import ProfessionalSkills from '../components/ProfessionalSkills/ProfessionalSkills'
 
 function Home() {
   return (
@@ -20,6 +21,8 @@ function Home() {
         <h2 style={{marginBottom: "-16px", fontWeight: "bold" }}>Öğrenciler, bunları görüntülüyor</h2>
         <LessonCards />
       </div>
+
+      <ProfessionalSkills />
     </>
   )
 }
