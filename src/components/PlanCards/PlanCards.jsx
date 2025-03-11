@@ -1,29 +1,23 @@
-import React, { useState, useEffect } from "react";
+import React,{useEffect, useState} from "react";
 import "./plancard.css";
-function PlanCards() {
-  const [isResponsive, setIsResponsive] = useState(false);
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+function PlanCards({screenWidth}) {
+const [isResponsive,setIsResponsive] = useState(false)
 
-  useEffect(() => {
-    const setWidth = () => {
-      setScreenWidth(window.innerWidth);
-    };
-    window.addEventListener("resize", setWidth);
+useEffect(() => {
+  console.log("Plan Card",screenWidth)
+  if (screenWidth < 1100) {
+    setIsResponsive(true)
+  }
+  else {
+    setIsResponsive(false)
+  }
+},[screenWidth])
 
-    if (screenWidth < 800) {
-      setIsResponsive(true);
-    } else {
-      setIsResponsive(false);
-    }
 
-    return () => {
-      window.removeEventListener("resize", setWidth);
-    };
-  }, [screenWidth]);
   return (
     <div className="container py-4">
       <div className="row">
-        <div className="col-12 col-md-4">
+        <div className={`${isResponsive ? 'col-12' : 'col-4'}`}>
           <div
             className="plan-card-header"
             type="button"
@@ -79,7 +73,7 @@ function PlanCards() {
             </div>
           </div>
         </div>
-        <div className="col-12 col-md-4">
+        <div className={`${isResponsive ? 'col-12' : 'col-4'}`}>
           <div
             className="plan-card-header"
             type="button"
@@ -134,7 +128,7 @@ function PlanCards() {
             </div>
           </div>
         </div>
-        <div className="col-12 col-md-4">
+        <div className={`${isResponsive ? 'col-12' : 'col-4'}`}>
           <div
             className="plan-card-header"
             type="button"
