@@ -9,6 +9,7 @@ import PlanCards from "../components/PlanCards/PlanCards";
 import SkillsCarousel from "../components/ProfessionalSkills/SkillsCarousel";
 import Achievements from "../components/Achievements/Achievements";
 import TrendReport from "../components/TrendReport/TrendReport";
+import NowPopular from "../components/NowPopular/NowPopular";
 
 function Home() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -31,7 +32,7 @@ function Home() {
   }, [window.innerWidth]);
   return (
     <>
-      <Navbar />
+      <Navbar isResponsive={isResponsive} />
       <Carousel />
       <Lessons />
       <Sponsor />
@@ -52,6 +53,8 @@ function Home() {
 
       <Achievements />
       <TrendReport isResponsive={isResponsive} screenWidth={screenWidth} />
+
+      <NowPopular isResponsive={isResponsive} />
     </>
   );
 }

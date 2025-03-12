@@ -6,27 +6,22 @@ function Achievements() {
       <div className="achievements-content container">
         <div className="achievements-item shadow-sm ">
           <div className="quote">
-            <i class="fa-solid fa-quote-left"></i>
+            <i className="fa-solid fa-quote-left"></i>
           </div>
 
           <div>
-            Udemy,{" "}
-            <span className="text-purple">
+            Udemy,<span className="text-purple">
               StackOverflow'un 2023 Geliştirici anketine
-            </span>{" "}
-            göre kodlama öğrenmek için{" "}
-            <span className="text-bold">
+            </span>göre kodlama öğrenmek için<span className="text-bold">
               en popüler online kurs veya sertifika programı
-            </span>{" "}
-            olarak değerlendirildi.
+            </span>olarak değerlendirildi.
           </div>
 
           <div className="profile">
             <img
               src="https://cms-images.udemycdn.com/96883mtakkm8/2PBcNgsQa3SvYWklkiN27r/5b8707cc79c8cae5774d5eb3b88b4001/logo_stackoverflow.svg"
               alt="Stack overlfow"
-            />{" "}
-            <br />
+            /><br />
             <small className="text-muted">37.076 yanıt toplandı</small>
           </div>
           <a href="#" className="text-purple">
@@ -35,7 +30,7 @@ function Achievements() {
         </div>
         <div className="achievements-item shadow-sm ">
           <div className="quote">
-            <i class="fa-solid fa-quote-left"></i>
+            <i className="fa-solid fa-quote-left"></i>
           </div>
 
           <div>
@@ -63,7 +58,7 @@ function Achievements() {
         </div>
         <div className="achievements-item shadow-sm ">
           <div className="quote">
-            <i class="fa-solid fa-quote-left"></i>
+            <i className="fa-solid fa-quote-left"></i>
           </div>
 
           <div>
@@ -91,14 +86,12 @@ function Achievements() {
         </div>
         <div className="achievements-item shadow-sm ">
           <div className="quote">
-            <i class="fa-solid fa-quote-left"></i>
+            <i className="fa-solid fa-quote-left"></i>
           </div>
 
           <div>
             Udemy Business, çalışanların teknolojiyi ve danışmanlık sosyal
-            yetkinliklerini bir araya getirerek{" "}
-            <span className="text-bold">kariyerlerinde ilerlemelerine</span>{" "}
-            yardımcı oldu.
+            yetkinliklerini bir araya getirerek <span className="text-bold">kariyerlerinde ilerlemelerine</span>yardımcı oldu.
           </div>
 
           <div className="profile d-flex flex-row gap-1">

@@ -1,9 +1,15 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./navbar.css";
 import Discovery from "./Discovery";
 import ResponsiveNavbar from "./ResponsiveNavbar";
-function Navbar() {
+function Navbar({isResponsive}) {
   const [menuHover, setMenuHover] = useState(false);
+
+  useEffect(() => {
+    if (!isResponsive) {
+      setMenuHover(false)
+    }
+  },[isResponsive])
   return (
     <nav className="container-fluid position-relative px-0 px-md-4 py-md-2">
       <button
@@ -14,11 +20,11 @@ function Navbar() {
         onClick={() => setMenuHover(true)}
       >
         <i
-          style={{ fontSize: "16px", fontWeight: "bold" }}
+          style={{ fontSize: "16px", fontWeight: "bold", pointerEvents: "none" }}
           className="fa-solid fa-bars menu-icon"
         ></i>
       </button>
-      {menuHover ? <ResponsiveNavbar setMenuHover={setMenuHover} /> : ""}
+      {isResponsive && menuHover ? <ResponsiveNavbar setMenuHover={setMenuHover} /> : null}
       <div className="logo">
         <img
           style={{ width: "90px" }}

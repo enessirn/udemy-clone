@@ -29,7 +29,7 @@ function TrendReport({ isResponsive, screenWidth }) {
           />
         </div>
         <button className={`get-report ${screenWidth < 1400 ? '' : 'btn-fixed'}`}>
-          Raporu edinin<i class="fa-solid fa-arrow-right"></i>
+          Raporu edinin<i className="fa-solid fa-arrow-right"></i>
         </button>
       </div>
     </div>

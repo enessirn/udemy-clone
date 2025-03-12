@@ -7,10 +7,6 @@ function Discovery({ menuHover, setMenuHover }) {
   useEffect(() => {
     setMenuList(MenuData.navbar);
   }, []);
-
-  useEffect(() => {
-    console.log(menuList[menuIndex]?.submenu);
-  }, [menuIndex]);
   return (
     <div
       style={{marginTop: "-8px"}}

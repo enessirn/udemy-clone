@@ -124,7 +124,7 @@ nav {
 }
 .lang-btn {
   border: 1px solid #6b28d1;
-  padding: 10px;
+  padding: 6px 10px;
   font-size: 16px;
 }
 .lang-btn:hover i {
