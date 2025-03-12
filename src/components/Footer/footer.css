@@ -4,6 +4,13 @@
     color: white;
     padding: 36px;
 }
+.footer-info {
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
 .footer h6 {
     font-weight: bold;
 }
@@ -19,8 +26,34 @@
     cursor: pointer;
     text-decoration: underline;
 }
+.footer-udemy-logo {
+    display: flex;
+    align-items: center ;
+    gap: 1rem;
+}
+.footer-udemy-logo img {
+    width: 100px;
+}
 
 
+.cookie-settings {
+    text-align: center;
+
+}
+.cookie-settings:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.footer-lang {
+    color: white;
+}
+.footer-lang i {
+    color: white;
+    margin-right: 8px;
+}
+.footer-lang:hover {
+    cursor: pointer;
+}
 /* footer up */
 .footer-up-container {
     width: 100vw !important;

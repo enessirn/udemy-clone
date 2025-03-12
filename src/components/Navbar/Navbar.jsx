@@ -2,14 +2,15 @@ import React, { useEffect, useState } from "react";
 import "./navbar.css";
 import Discovery from "./Discovery";
 import ResponsiveNavbar from "./ResponsiveNavbar";
-function Navbar({isResponsive}) {
+import { Link } from "react-router-dom";
+function Navbar({ isResponsive }) {
   const [menuHover, setMenuHover] = useState(false);
 
   useEffect(() => {
     if (!isResponsive) {
-      setMenuHover(false)
+      setMenuHover(false);
     }
-  },[isResponsive])
+  }, [isResponsive]);
   return (
     <nav className="container-fluid position-relative px-0 px-md-4 py-md-2">
       <button
@@ -20,17 +21,25 @@ function Navbar({isResponsive}) {
         onClick={() => setMenuHover(true)}
       >
         <i
-          style={{ fontSize: "16px", fontWeight: "bold", pointerEvents: "none" }}
+          style={{
+            fontSize: "16px",
+            fontWeight: "bold",
+            pointerEvents: "none",
+          }}
           className="fa-solid fa-bars menu-icon"
         ></i>
       </button>
-      {isResponsive && menuHover ? <ResponsiveNavbar setMenuHover={setMenuHover} /> : null}
+      {isResponsive && menuHover ? (
+        <ResponsiveNavbar setMenuHover={setMenuHover} />
+      ) : null}
       <div className="logo">
-        <img
-          style={{ width: "90px" }}
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Udemy_logo.svg/2560px-Udemy_logo.svg.png"
-          alt="Udemy"
-        />
+        <Link to="/">
+          <img
+            style={{ width: "90px" }}
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Udemy_logo.svg/2560px-Udemy_logo.svg.png"
+            alt="Udemy"
+          />
+        </Link>
       </div>
 
       <button
@@ -50,15 +59,12 @@ function Navbar({isResponsive}) {
       </div>
 
       <div className="menu-right-side">
-        <a
-          className="nav-btn d-none d-xl-flex menu-link"
-          href="#udemy-business"
-        >
+        <a className="nav-btn d-none d-lg-flex" href="#udemy-business">
           Udemy Business
         </a>
-        <a className="nav-btn d-none d-lg-flex" href="#udemy-business">
+        <Link className="nav-btn d-none d-xl-flex menu-link" to="/teach">
           Udemy'de Eğitim Verin
-        </a>
+        </Link>
 
         <button className="nav-btn cart-btn d-none d-md-block">
           <i className="fa-solid fa-cart-shopping"></i>

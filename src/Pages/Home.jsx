@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Navbar from "../components/Navbar/Navbar";
 import Carousel from "../components/Carousel/Carousel";
 import Lessons from "../components/Lessons/Lessons";
@@ -13,25 +13,7 @@ import NowPopular from "../components/NowPopular/NowPopular";
 import Footer from "../components/Footer/Footer";
 import FooterUp from "../components/Footer/FooterUp";
 
-function Home() {
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-  const [isResponsive, setIsResponsive] = useState(false);
-  useEffect(() => {
-    const setWidth = () => {
-      setScreenWidth(window.innerWidth);
-    };
-    window.addEventListener("resize", setWidth);
-
-    if (screenWidth < 800) {
-      setIsResponsive(true);
-    } else {
-      setIsResponsive(false);
-    }
-
-    return () => {
-      window.removeEventListener("resize", setWidth);
-    };
-  }, [window.innerWidth]);
+function Home({screenWidth, isResponsive}) {
   return (
     <>
       <Navbar isResponsive={isResponsive} />
@@ -58,7 +40,7 @@ function Home() {
 
       <NowPopular isResponsive={isResponsive} />
       <FooterUp />
-      <Footer />
+      <Footer isResponsive={isResponsive} />
     </>
   );
 }
