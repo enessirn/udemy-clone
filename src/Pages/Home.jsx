@@ -10,6 +10,8 @@ import SkillsCarousel from "../components/ProfessionalSkills/SkillsCarousel";
 import Achievements from "../components/Achievements/Achievements";
 import TrendReport from "../components/TrendReport/TrendReport";
 import NowPopular from "../components/NowPopular/NowPopular";
+import Footer from "../components/Footer/Footer";
+import FooterUp from "../components/Footer/FooterUp";
 
 function Home() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -55,6 +57,8 @@ function Home() {
       <TrendReport isResponsive={isResponsive} screenWidth={screenWidth} />
 
       <NowPopular isResponsive={isResponsive} />
+      <FooterUp />
+      <Footer />
     </>
   );
 }

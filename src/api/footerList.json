@@ -1,0 +1,82 @@
+[
+    {
+      "title": "Düzenleyiciye Göre Sertifikalar",
+      "list": [
+        "Amazon Web Services (AWS) Sertifikasyonları",
+        "Six Sigma Sertifikasyonları",
+        "Microsoft Sertifikasyonları",
+        "Cisco Sertifikasyonları",
+        "Tableau Sertifikasyonları",
+        "Tüm Sertifikaları Görüntüle"
+      ]
+    },
+    {
+      "title": "Web Geliştirme",
+      "list": [
+        "JavaScript",
+        "React JS",
+        "Angular",
+        "Java"
+      ]
+    },
+    {
+      "title": "BT Sertifikaları",
+      "list": [
+        "Amazon AWS",
+        "AWS Certified Cloud Practitioner",
+        "AZ-900: Microsoft Azure Fundamentals",
+        "AWS Certified Solutions Architect - Associate",
+        "Kubernetes"
+      ]
+    },
+    {
+      "title": "Liderlik",
+      "list": [
+        "Yönetim Becerileri",
+        "Proje Yönetimi",
+        "Kişisel Verimlilik",
+        "Duygusal Zeka"
+      ]
+    },
+    {
+      "title": "Yetkinliğe Göre Sertifikalar",
+      "list": [
+        "Siber Güvenlik Sertifikasyonu",
+        "Proje Yönetimi Sertifikasyonu",
+        "Bulut Sertifikasyonu",
+        "Veri Analizi Sertifikasyonu",
+        "İK Yönetimi Sertifikasyonu",
+        "Tüm Sertifikaları Görüntüle"
+      ]
+    },
+    {
+      "title": "Veri Bilimi",
+      "list": [
+        "Python",
+        "Makine Öğrenimi",
+        "ChatGPT",
+        "Derin Öğrenme"
+      ]
+    },
+    {
+      "title": "İletişim",
+      "list": [
+        "İletişim Becerileri",
+        "Sunum Becerileri",
+        "Topluluk Önünde Konuşma",
+        "Yazarlık",
+        "PowerPoint"
+      ]
+    },
+    {
+      "title": "İş Analitiği ve Zekası",
+      "list": [
+        "Microsoft Excel",
+        "SQL",
+        "Microsoft Power BI",
+        "Veri Analizi",
+        "İş Analizi"
+      ]
+    }
+  ]
+  

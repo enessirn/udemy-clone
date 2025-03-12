@@ -1,5 +1,5 @@
 .achievements-content {
-    width: 100%;
+    width: 100vw !important;
     display: flex;
     flex-direction: row;
     gap: 1rem;

@@ -1,0 +1,65 @@
+.footer {
+    width: 100vw !important;
+    background: rgb(18, 18, 23);
+    color: white;
+    padding: 36px;
+}
+.footer h6 {
+    font-weight: bold;
+}
+.footer ul {
+    margin: 0;
+    padding: 0;
+    line-height: 25px;
+}
+.footer li {
+    font-size: 14px;
+}
+.footer li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/* footer up */
+.footer-up-container {
+    width: 100vw !important;
+    background: #1c1d26;
+    padding: 36px;
+    color: white;
+}
+.footer-up-list {
+    margin-top: 12px;
+    line-height: 25px;
+}
+.footer-up-list li {
+    font-size: 13px;
+}
+.footer-up-list li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/* accordion */
+.accordion {
+    border: none !important;
+}
+.accordion-item {
+    background: none;
+    color: white;
+}
+.accordion-header button{
+    background: none;
+    border: none !important;
+    border-bottom: 1px solid white;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.accordion-button::after {
+    filter: invert(1);
+}
+.accordion-button:not(.collapsed) {
+    background: none;
+}
