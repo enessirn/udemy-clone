@@ -32,15 +32,13 @@ function Navbar({ isResponsive }) {
       {isResponsive && menuHover ? (
         <ResponsiveNavbar setMenuHover={setMenuHover} />
       ) : null}
-      <div className="logo">
-        <Link to="/">
-          <img
-            style={{ width: "90px" }}
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Udemy_logo.svg/2560px-Udemy_logo.svg.png"
-            alt="Udemy"
-          />
-        </Link>
-      </div>
+      <Link to="/" className="logo">
+        <img
+          style={{ width: "90px" }}
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Udemy_logo.svg/2560px-Udemy_logo.svg.png"
+          alt="Udemy"
+        />
+      </Link>
 
       <button
         className="discovery-btn nav-btn d-none d-md-block"
@@ -62,16 +60,18 @@ function Navbar({ isResponsive }) {
         <a className="nav-btn d-none d-lg-flex" href="#udemy-business">
           Udemy Business
         </a>
-        <Link className="nav-btn d-none d-xl-flex menu-link" to="/teach">
+        <a className="nav-btn d-none d-xl-flex menu-link" href="#">
           Udemy'de Eğitim Verin
-        </Link>
+        </a>
 
         <button className="nav-btn cart-btn d-none d-md-block">
           <i className="fa-solid fa-cart-shopping"></i>
         </button>
-        <button className="nav-btn d-none d-md-block" id="sign-in-btn">
-          Oturum aç
-        </button>
+        <Link to="/sign-in">
+          <button className="nav-btn d-none d-md-block" id="sign-in-btn">
+            Oturum aç
+          </button>
+        </Link>
         <button className="nav-btn d-none d-md-block" id="sign-up-btn">
           Kaydol
         </button>

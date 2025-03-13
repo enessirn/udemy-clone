@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Home from "./Pages/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Teach from "./Pages/Teach";
+import SignIn from "./Pages/SignIn"
 function App() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
   const [isResponsive, setIsResponsive] = useState(false);
@@ -26,7 +26,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Home isResponsive={isResponsive} screenWidth={screenWidth} />} />
-          <Route exact path="/teach" element={<Teach isResponsive={isResponsive} screenWidth={screenWidth} />} />
+          <Route exact path="/sign-in" element={<SignIn isResponsive={isResponsive} screenWidth={screenWidth} />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -52,7 +52,7 @@ function Footer({isResponsive}) {
         </div>
         <div className=" cookie-settings">Çerez Ayarları</div>
         <div className="footer-lang">
-          <i class="fa-solid fa-globe"></i>
+          <i className="fa-solid fa-globe"></i>
           Türkçe
         </div>
       </div>

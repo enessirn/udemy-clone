@@ -1,0 +1,141 @@
+.sign-in-content {
+  width: 100%;
+  display: flex;
+  flex-direction: row !important;
+  gap: 0.4rem;
+  padding: 80px 0;
+}
+.sign-in-input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  padding-left: 40px;
+}
+.sign-in-input-group label {
+  pointer-events: none;
+  position: absolute;
+  top: 72%;
+  left: 12%;
+  font-weight: bold;
+  transition: 0.5s all ease-in-out;
+}
+@media (max-width: 1200px) {
+  .sign-in-input-group label {
+    top: 76%;
+    left: 15%;
+  }
+}
+@media (max-width: 800px) {
+  .sign-in-input-group label {
+    top: 69%;
+  }
+}
+.sign-in-input {
+  width: 100%;
+  padding: 16px 24px;
+  outline: none;
+  border-radius: 6px;
+  border: 1px solid black;
+}
+.sign-in-input:focus {
+  border: 2px solid #6b28d1;
+}
+/* when input focus label go to up */
+/*! has özelliği if şartı gibi çalışıyor diyebliriz şuan sadece chrome ve firefoxda var yeni özellik !*/
+
+.sign-in-input-group:has(.sign-in-input:focus) label {
+  transform: translateY(-15px);
+  font-size: 12px;
+  color: #6b28d1;
+  transition: all 0.3s ease-in-out;
+}
+.sign-in-btn {
+  width: 100%;
+  display: flex;
+  background: none;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  font-size: 16px;
+  outline: none;
+  border-radius: 4px;
+  margin-left: 4px;
+  padding: 10px 13px;
+  line-height: normal;
+  white-space: nowrap;
+  border: none;
+  background: #6b28d1;
+  color: white;
+  font-weight: bold;
+  padding: 10px 16px;
+}
+.sign-in-btn i {
+  color: white;
+}
+.sign-in-btn:hover {
+  background: #9655f8;
+  transition: 0.2s all ease-in-out;
+}
+
+#diger-oturum-secenekleri {
+  border-top: 1px solid lightgray;
+  position: relative;
+  margin-left: 40px !important;
+  margin-top: 30px;
+}
+#diger-oturum-secenekleri small {
+  position: absolute;
+  top: -10px;
+  left: 25%;
+  background: white;
+}
+.login-options {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.login-options span {
+  cursor: pointer;
+  padding: 12px 18px;
+  border: 1px solid #6b28d1;
+  color: #6b28d1;
+}
+.login-options span:hover {
+  background: rgba(107, 40, 209, 0.15);
+  transition: 0.2s all ease-in-out;
+}
+.login-options span i {
+  color: #6b28d1;
+  font-size: 18px;
+  font-weight: bold;
+}
+.sign-in-bottom-links {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.sign-in-bottom-links div {
+  width: 100%;
+  background: #f7f8fa;
+  display: flex;
+  gap: 0.4rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 0;
+  border-radius: 6px;
+}
+.sign-in-bottom-links div:nth-child(1) {
+  border-bottom: 1px solid lightgray;
+}
+.purple-underline {
+  color: #6b28d1;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -21,7 +21,7 @@ function NowPopular({ isResponsive }) {
             {!isResponsive && (
               <button className="now-popular-btn">
                 Tüm popüler yetkinlikleri göster
-                <i class="fa-solid fa-arrow-trend-up"></i>
+                <i className="fa-solid fa-arrow-trend-up"></i>
               </button>
             )}
           </div>
@@ -100,7 +100,7 @@ function NowPopular({ isResponsive }) {
           {isResponsive && (
               <button className="now-popular-btn w-100">
                 Tüm popüler yetkinlikleri göster
-                <i class="fa-solid fa-arrow-trend-up"></i>
+                <i className="fa-solid fa-arrow-trend-up"></i>
               </button>
             )}
         </div>

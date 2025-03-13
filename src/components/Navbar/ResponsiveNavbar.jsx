@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function ResponsiveNavbar({ setMenuHover }) {
   return (
@@ -22,13 +23,20 @@ function ResponsiveNavbar({ setMenuHover }) {
         </div>
         <div className="offcanvas-body">
           <div className="buttons">
-            <button className="nav-btn w-100">Oturum aç</button>
+            <Link to="sign-in">
+              <button className="nav-btn w-100">Oturum aç</button>
+            </Link>
             <button className="nav-btn w-100 text-center">Kaydol</button>
           </div>
 
           <div className="nav-list-responsive">
             <p
-              style={{ fontWeight: "bold", fontSize: "12px", color: "#585b73",marginBottom: "-5px" }}
+              style={{
+                fontWeight: "bold",
+                fontSize: "12px",
+                color: "#585b73",
+                marginBottom: "-5px",
+              }}
             >
               En Popüler
             </p>
@@ -103,7 +111,12 @@ function ResponsiveNavbar({ setMenuHover }) {
           </div>
           <div className="nav-list-responsive">
             <p
-              style={{ fontWeight: "bold", fontSize: "13px", color: "#585b73", marginBottom: "-5px" }}
+              style={{
+                fontWeight: "bold",
+                fontSize: "13px",
+                color: "#585b73",
+                marginBottom: "-5px",
+              }}
             >
               Udemy'nin sunduğu diğer <br /> hizmetler
             </p>
@@ -122,7 +135,12 @@ function ResponsiveNavbar({ setMenuHover }) {
               </li>
             </ul>
             <div
-              style={{ cursor: "pointer", width: "50%", marginLeft: "20px", marginTop: "10px" }}
+              style={{
+                cursor: "pointer",
+                width: "50%",
+                marginLeft: "20px",
+                marginTop: "10px",
+              }}
               className="nav-btn"
               id="sign-in-btn"
             >
